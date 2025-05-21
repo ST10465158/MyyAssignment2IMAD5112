@@ -1,5 +1,35 @@
 # MyyAssignment2IMAD5112
 
+My True and False Game App 
+
+ 
+
+How It works: 
+
+The user will read the question. The questions are history based. They will enter their answer into the text box, either “True” or “False”. Then they will proceed to click the submit button to record the answer. The score will update after each answer. At the end, the app shows "Quiz Finished!" and a Restart button. 
+
+The purpose of the application: 
+
+The purpose of this application is to create a simple and interactive quiz experience for users to test their general knowledge. The app presents a sequence of five questions, accepts user input, validates responses, provides real-time score updates, and gives users the opportunity to attempt the quiz again after completion. 
+
+My design considerations: 
+
+The app is designed with simplicity, clarity, and usability in mind to ensure a smooth user experience having: Text-based interaction where users type answers rather than selecting options; Minimalist layout with clear text and buttons without distractions to keep the user focused on content; Real-time feedback where the score updates after each answer and quiz completion feedback; Accessibility with case-insensitive input comparison allows for flexibility in answering. 
+
+The way the user will interact: 
+
+User is presented with a question. 
+
+User enters a response and taps "Submit". 
+
+The app verifies the answer and updates the score. 
+
+On final question, displays “Quiz Finished!” and shows the score. 
+
+“Restart” button becomes visible, allowing the user to replay. 
+
+My app uses parallel arrays to hold questions and their corresponding correct answers. Trimmed and case-insensitive input validation ensures fairness. Variables like score and currentIndex track the quiz state.  
+
 Screenshots of my code and interface: 
 
  
